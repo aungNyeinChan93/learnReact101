@@ -1,0 +1,24 @@
+---------
+
+react 
+react-package
+react-dom
+buble-js
+eslin
+wepack _ JSX
+-----------
+
+-----------
+vanila js vs react JSX (javascript syntax extension)
+
+other > template base
+react > component base ~ SPA framework (single page application)
+
+
+
+
+
+
+
+
+

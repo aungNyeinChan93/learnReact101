@@ -1,0 +1,21 @@
+
+.title{
+    color: red;
+    background-color: darkblue;
+
+}
+
+#userName{
+    margin-left: 20px;
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+.footer-h3{
+    background-color: red;
+}

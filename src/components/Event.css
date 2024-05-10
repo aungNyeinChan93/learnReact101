@@ -1,0 +1,20 @@
+.event-title {
+  font-family: monospace;
+  color: blue;
+  background-color: gold;
+  text-align: center;
+}
+.event-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.event-btn > button {
+  
+  border: 0px;
+  color: rgb(255, 253, 253);
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+}

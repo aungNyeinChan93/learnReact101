@@ -1,0 +1,24 @@
+.cal-container , .boolen-container{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: rgba(255, 255, 0, 0.516);
+    border-radius: 20px;
+}
+
+.result{
+    min-width: 100px;
+    min-height: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color:rgb(97, 93, 162);
+    text-align: center;
+    line-height: 100px;
+    color: rgb(247, 247, 247);
+    font-size: 2rem;
+
+}   
