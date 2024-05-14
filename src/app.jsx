@@ -10,6 +10,7 @@ import Extenstion from "./components/Extenstion";
 import Rafce from "./components/Rafce";
 import State from "./components/State";
 import UseStateHook from "./components/UseStateHook";
+import FormHanling from "./components/FormHanling";
 
 function App() {
     const greeting = ()=>{
@@ -83,6 +84,9 @@ function App() {
 
       {/* UseState Section */}
       <UseStateHook/>
+
+      {/* Form handling */}
+      <FormHanling/>
 
     </section>
   );
