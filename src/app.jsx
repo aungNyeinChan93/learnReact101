@@ -11,6 +11,7 @@ import Rafce from "./components/Rafce";
 import State from "./components/State";
 import UseStateHook from "./components/UseStateHook";
 import FormHanling from "./components/FormHanling";
+import UseStateFormHandling from "./components/UseStateFormHandling";
 
 function App() {
     const greeting = ()=>{
@@ -87,6 +88,9 @@ function App() {
 
       {/* Form handling */}
       <FormHanling/>
+
+      {/* useState Form Handling */}
+      <UseStateFormHandling/>
 
     </section>
   );

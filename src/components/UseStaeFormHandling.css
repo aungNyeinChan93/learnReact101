@@ -1,0 +1,28 @@
+.select-container{
+    width: 600px;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+
+.select-container select{
+    width: 300px;
+    padding: 15px;   
+    height: auto;
+    margin-left: 20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.checkbox{
+    background-color: rgb(204, 13, 13);
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+}
+.checkBox-p{
+    margin-left: 25px;
+    padding: 10px 0;
+    text-transform: capitalize;
+    color: rgb(122, 119, 112);
+}
