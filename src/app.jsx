@@ -12,6 +12,7 @@ import State from "./components/State";
 import UseStateHook from "./components/UseStateHook";
 import FormHanling from "./components/FormHanling";
 import UseStateFormHandling from "./components/UseStateFormHandling";
+import Context from "./components/Context"
 
 function App() {
     const greeting = ()=>{
@@ -91,6 +92,9 @@ function App() {
 
       {/* useState Form Handling */}
       <UseStateFormHandling/>
+
+      {/* Context Section */}
+      <Context/>
 
     </section>
   );
