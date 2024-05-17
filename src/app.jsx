@@ -14,6 +14,7 @@ import FormHanling from "./components/FormHanling";
 import UseStateFormHandling from "./components/UseStateFormHandling";
 import Context from "./components/Context"
 import Api from "./components/Api";
+import UseEffect from "./components/UseEffect";
 
 function App() {
     const greeting = ()=>{
@@ -99,6 +100,10 @@ function App() {
 
       {/* API Section */}
       <Api/>
+
+
+      {/* useEffect Section  */}
+      <UseEffect/>
     </section>
   );
 }
