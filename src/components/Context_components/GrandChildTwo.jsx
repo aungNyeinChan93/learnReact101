@@ -5,7 +5,8 @@ import WhiteContext from '../context/WhiteContext'
 
 const GrandChildTwo = ({ secData }) => {
   const theme = useContext(WhiteContext);
-
+    // console.log(name,key);
+   
   return (
     <div className='container '>
       <h4>Grand Child Two || <span className='text-danger'>{secData}</span></h4>

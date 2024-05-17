@@ -13,6 +13,7 @@ import UseStateHook from "./components/UseStateHook";
 import FormHanling from "./components/FormHanling";
 import UseStateFormHandling from "./components/UseStateFormHandling";
 import Context from "./components/Context"
+import Api from "./components/Api";
 
 function App() {
     const greeting = ()=>{
@@ -96,6 +97,8 @@ function App() {
       {/* Context Section */}
       <Context/>
 
+      {/* API Section */}
+      <Api/>
     </section>
   );
 }
