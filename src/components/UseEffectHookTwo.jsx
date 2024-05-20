@@ -7,8 +7,7 @@ const UseEffectHookTwo = () => {
 
   useEffect(() => {
     setEffectmessage((effectMessage) => effectMessage + 1);
-    console.log();
-  }, [message,secMessage]);
+  }, [message, secMessage]);
   return (
     <div className=" bg-danger-subtle min-vh-100 container-fluid my-2 d-flex justify-content-center align-items-center">
       <div className="text-container container-sm my-3 text-center p-5 bg-info shadow-lg rounded-3 ">
@@ -20,7 +19,6 @@ const UseEffectHookTwo = () => {
           onClick={() => setMessage((preval) => preval + 1)}
           className="btn btn-danger px- mx-5"
         >
-          
           Counter One
         </button>
         <span className=" fs-4 text-danger text-capitalize fw-lighter">
@@ -30,7 +28,6 @@ const UseEffectHookTwo = () => {
           onClick={() => setSecMessage((preval) => preval + 1)}
           className="btn btn-danger px- mx-5"
         >
-          
           Counter Two
         </button>
         <div className=" fs-4 text-danger text-capitalize fw-lighter mt-4">

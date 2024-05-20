@@ -16,6 +16,7 @@ import Context from "./components/Context"
 import Api from "./components/Api";
 import UseEffect from "./components/UseEffect";
 import UseEffectHookTwo from "./components/UseEffectHookTwo";
+import CounterApp from "./components/CounterApp"
 
 function App() {
     const greeting = ()=>{
@@ -108,6 +109,9 @@ function App() {
 
       {/* useEffect Section Two*/}
       <UseEffectHookTwo/>
+
+      {/* CounterApp Section */}
+      <CounterApp/>
 
     </section>
   );
