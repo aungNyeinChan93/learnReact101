@@ -11,7 +11,7 @@ import "./Context.css"
  
 
 const Context = () => {
-    const theme = "black"
+    const theme = "white"
     const testObj = {
         name:"test",
         key: "1",
@@ -27,7 +27,7 @@ const Context = () => {
             <div className="img-container container text-center mt-4 ">
                 <div className="row">
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 my-2 " >
-                        <img style={{ height: "300px", width: "600px", border: "2px solid red" }} src="https://lh7-us.googleusercontent.com/ltvhpCVa__58CAOWMF7rU0uBeXLhb2I81kxyb2YuGLWxBbK-Ty45hr5JCzLcM_y3POWdAdusLHzH_q329XlKgKUQ7dAnssp6R-wzhH8oYzx3AuYnWhr2Dpmd-lwy5O7HsK-ievjB4dZMgvQ4iBelw9U" alt="img-1" className="context-img img-thumbnail shadow-sm rounded-1  " />
+                        <img style={{ height: "300px", width: "600px", border: "2px solid red" }} src="https://dmitripavlutin.com/react-context-and-usecontext/cover.png" alt="img-1" className="context-img img-thumbnail shadow-sm rounded-1  " />
                     </div>
                     <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 my-2 " >
                         <img style={{ height: "300px", width: "600px", border: "2px solid red" }} src="https://dotnettrickscloud.blob.core.windows.net/img/react/3720230724012943.webp" alt="img-1" className="context-img img-thumbnail shadow-sm rounded-1  " />
@@ -38,7 +38,7 @@ const Context = () => {
                 <TestContext.Provider  value={testObj}>
                     <GeneralData.Provider value="this is general data from context">
                         <ThemeContext.Provider value="data from root || from context || value is dark">
-                            <WhiteContext.Provider value={theme} key={testObj.key} {...testObj}>
+                            <WhiteContext.Provider value={theme} >
                                 <div className='bg-info text-danger  rounded-pill'><ChildOne data="this is data from main component use by props"/></div>
                                 <div className='bg-info text-danger rounded-pill'><ChildTwo data="this is data from main component use by props"/></div>
                             </WhiteContext.Provider >

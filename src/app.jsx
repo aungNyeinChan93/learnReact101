@@ -15,6 +15,7 @@ import UseStateFormHandling from "./components/UseStateFormHandling";
 import Context from "./components/Context"
 import Api from "./components/Api";
 import UseEffect from "./components/UseEffect";
+import UseEffectHookTwo from "./components/UseEffectHookTwo";
 
 function App() {
     const greeting = ()=>{
@@ -104,6 +105,10 @@ function App() {
 
       {/* useEffect Section  */}
       <UseEffect/>
+
+      {/* useEffect Section Two*/}
+      <UseEffectHookTwo/>
+
     </section>
   );
 }
