@@ -20,15 +20,21 @@ const addNewItems =useCallback(()=>{
 const testForUsememo =()=>{
     console.log(`test for useMemo`);
 };
+
 useMemo(()=>{
     testForUsememo()
-},[items])
+},[count])
 
+const deleteItem=useCallback( (id)=>{
+    setItems(items.filter((item,index)=>{
+        return index !== id
+    }))
+},[items])
 
     return (
         <div className='UseCallback container-fluid min-vh-100 bg-body-tertiary '>
             <h2 className=' bg-danger-subtle p-2 rounded my-1 text-center text-success'>useCallback Hook</h2>
-            <ListForUseCallback items={items} addNewItems={addNewItems}/>   
+            <ListForUseCallback items={items} addNewItems={addNewItems} deleteItem={deleteItem}/>   
             <div className="count text-center bg-body p-2 shadow rounded">
                 <h2 >{count}</h2>
                 <div className="btn-group">
