@@ -13,7 +13,8 @@ const UseEffect = () => {
       .then((res) => res.json())
       .catch((error) => console.log(error.messaqge));
     setPost(fetchData);
-  };
+  }
+  
   useEffect(() => {
     fetching();
   });

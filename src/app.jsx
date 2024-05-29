@@ -17,6 +17,8 @@ import Api from "./components/Api";
 import UseEffect from "./components/UseEffect";
 import UseEffectHookTwo from "./components/UseEffectHookTwo";
 import CounterApp from "./components/CounterApp"
+import UseMemo from "./components/UseMemo";
+import UseCallback from "./components/UseCallback";
 
 function App() {
     const greeting = ()=>{
@@ -112,6 +114,12 @@ function App() {
 
       {/* CounterApp Section */}
       <CounterApp/>
+
+      {/* useMemo */}
+      <UseMemo/>
+
+      {/* usecallback hook */}
+      <UseCallback/>
 
     </section>
   );
